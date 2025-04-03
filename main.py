@@ -2,7 +2,7 @@ import numpy as np
 np.random.seed(42)  # for reproducibility
 
 # Generate 1000 random numbers between 0 and 1
-X = np.random.uniform(0, 1, 1000000)
+X = np.random.uniform(0, 1, 1000)
 # Calculate h(X) = X²
 hX = X**2
 # Calculate the mean
